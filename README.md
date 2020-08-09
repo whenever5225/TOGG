@@ -1,2 +1,3 @@
-# QGS
-Query-guided search based on graph index
+# TOGG: Proximity Graph's Two-Stage Routing with Optimized Guided Search and Greedy Algorithm for Approximate Nearest Neighbor Search
+
+Two-Stage Routing with Optimized Guided Search and Greedy Algorithm is more efficient and effective routing strategy than state-of-the-art method (such as the popular hill-climbing algorithm). At present, TOGG has been deployed in several state-of-the-art proximity graph algorithms (including HNSW, NSG, and NSSG), and experiments on multiple real world datasets have verified the efficiency and effectiveness of TOGG. When our paper is accepted, we will open source our code.
