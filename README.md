@@ -116,7 +116,7 @@ cd TOGG/algorithms/A/B/build/test/
 
 ## Results
 
-![image-20210508170359383](/Users/wmz/Library/Application Support/typora-user-images/image-20210508170359383.png)
+![image-20210508170359383](./performance/speedup_vs_recall.png)
 
 ## Acknowledgements
 
