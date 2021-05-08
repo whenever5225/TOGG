@@ -87,15 +87,15 @@ $ make -j
 Before building index, you should set the root directory for the dataset in `TOGG/routing_evaluation/test/evaluation.cpp` first. Then, you can run the following instructions for build graph index.
 
 ```shell
-cd TOGG/routing_evaluation/build/test/
-./evaluation strategy_name dataset_name build [other optional information]
+$ cd TOGG/routing_evaluation/build/test/
+$ ./evaluation strategy_name dataset_name build [other optional information]
 ```
 
 After the build is completed, the graph index will be written in the current folder in binary format (for index size). The index construction time can be viewed from the output log information. With the index built, you can run the following commands to perform the search. Related information about the search such as distance evaluation times, candidate set size, memory load can be obtained or calculated according to the output log information.
 
 ```shell
-cd TOGG/routing_evaluation/build/test/
-./evaluation strategy_name dataset_name search [other optional information]
+$ cd TOGG/routing_evaluation/build/test/
+$ ./evaluation strategy_name dataset_name search [other optional information]
 ```
 
 ### Scalability Evaluation
@@ -103,15 +103,15 @@ cd TOGG/routing_evaluation/build/test/
 Before building index, you should set the root directory for the dataset in `TOGG/algorithms/A/B/test/evaluation.cpp` first. Then, you can run the following instructions for build graph index.
 
 ```shell
-cd TOGG/algorithms/A/B/build/test/
-./evaluation dataset_name build [other optional information]	#see evaluation.cpp file for more detail
+$ cd TOGG/algorithms/A/B/build/test/
+$ ./evaluation dataset_name build [other optional information]	#see evaluation.cpp file for more detail
 ```
 
 After the build is completed, the graph index will be written in the current folder in binary format (for index size). The index construction time can be viewed from the output log information. With the index built, you can run the following commands to perform the search. Related information about the search such as distance evaluation times, candidate set size, memory load can be obtained or calculated according to the output log information.
 
 ```shell
-cd TOGG/algorithms/A/B/build/test/
-./evaluation dataset_name search [other optional information]	#see evaluation.cpp file for more detail
+$ cd TOGG/algorithms/A/B/build/test/
+$ ./evaluation dataset_name search [other optional information]	#see evaluation.cpp file for more detail
 ```
 
 ## Results
