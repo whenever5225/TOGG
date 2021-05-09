@@ -99,7 +99,7 @@ void get_range(const float* data, unsigned dim, unsigned num, float* &range) {
 int main(int argc, char** argv)
 {
     if (argc < 3 || argc > 5) {
-      std::cout << "./n2_test dataset exc_type [P] [K] [L]"
+      std::cout << "./evaluation dataset exc_type [P] [K] [L]"
                 << std::endl;
       exit(-1);
     }

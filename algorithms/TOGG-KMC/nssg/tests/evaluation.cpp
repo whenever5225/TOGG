@@ -69,7 +69,7 @@ void load_ivecs_data(const char* filename, std::vector<std::vector<unsigned> >& 
 
 int main(int argc, char** argv) {
   if (argc < 3 || argc > 5) {
-    std::cout << "./nssg_toggkmc_test dataset exc_type [CN] [K] [L]"
+    std::cout << "./evaluation dataset exc_type [CN] [K] [L]"
               << std::endl;
     exit(-1);
   }
@@ -81,8 +81,7 @@ int main(int argc, char** argv) {
   std::string query_path;
   std::string ground_path;
   set_data_path(dataset, base_path, query_path, ground_path);
-  std::string para_c(argv[3]);
-  std::string graph_file(para_c + "nssg_toggkmc_" + dataset + ".graph");
+  std::string graph_file("nssg_toggkmc_" + dataset + ".graph");
 
   float* data_load = NULL;
   unsigned points_num, dim;
@@ -94,7 +93,7 @@ int main(int argc, char** argv) {
                            (efanna2e::Index*)(&init_index));
     efanna2e::Parameters paras;
     if (argc != 4) {
-      std::cout << "./nssg_toggkmc_test dataset exc_type [CN] [K] [L]"
+      std::cout << "./evaluation dataset exc_type [CN] [K] [L]"
                 << std::endl;
       exit(-1);
     }
@@ -127,7 +126,7 @@ int main(int argc, char** argv) {
     index.Load(&graph_file[0]);
     index.OptimizeGraph(data_load);
     unsigned K;
-    std::string L_type("L_SEARCH_ASSIGN");
+    std::string L_type("L_SEARCH_ASCEND");
     if (argc == 6) {
       K = (unsigned)atoi(argv[3]);
       std::cout << "K: " << K << std::endl;

@@ -70,7 +70,7 @@ void load_ivecs_data(const char* filename, std::vector<std::vector<unsigned> >& 
 
 int main(int argc, char** argv) {
   if (argc < 3 || argc > 5) {
-    std::cout << "./nsg_test dataset exc_type [CN] [K] [L]"
+    std::cout << "./evaluation dataset exc_type [CN] [K] [L]"
               << std::endl;
     exit(-1);
   }
@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
     efanna2e::Parameters paras;
     set_para(dataset, paras);
     if (argc != 4) {
-      std::cout << "./nsg_toggkmc_test dataset exc_type [CN] [K] [L]"
+      std::cout << "./evaluation dataset exc_type [CN] [K] [L]"
                 << std::endl;
       exit(-1);
     }
@@ -123,7 +123,7 @@ int main(int argc, char** argv) {
     index.Load(&graph_file[0]);
     index.OptimizeGraph(data_load);
     unsigned K;
-    std::string L_type("L_SEARCH_ASSIGN");
+    std::string L_type("L_SEARCH_ASCEND");
     if (argc == 4) {
       K = (unsigned)atoi(argv[3]);
       std::cout << "K: " << K << std::endl;
@@ -168,7 +168,7 @@ int main(int argc, char** argv) {
       float acc_set = 0.99;
       bool flag = false;
       int L_sl = 1;
-      unsigned L = 5000;
+      unsigned L = K;
       visited.insert(L);
       unsigned L_min = 0x7fffffff;
       while (true) {
