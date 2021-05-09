@@ -1,0 +1,12 @@
+/home/tdlab/efanna_graph/CMakeFiles/rebuild_cache.dir
+/home/tdlab/efanna_graph/CMakeFiles/edit_cache.dir
+/home/tdlab/efanna_graph/src/CMakeFiles/rebuild_cache.dir
+/home/tdlab/efanna_graph/src/CMakeFiles/edit_cache.dir
+/home/tdlab/efanna_graph/src/CMakeFiles/efanna2e.dir
+/home/tdlab/efanna_graph/src/CMakeFiles/efanna2e_s.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/rebuild_cache.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/test_nndescent_refine.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/test_kdtree_graph.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/edit_cache.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/test_nndescent.dir
+/home/tdlab/efanna_graph/tests/CMakeFiles/test_faiss_graph.dir

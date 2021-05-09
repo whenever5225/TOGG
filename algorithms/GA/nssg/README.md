@@ -1,0 +1,1 @@
+Refer to https://github.com/ZJULearning/ssg for usage details.

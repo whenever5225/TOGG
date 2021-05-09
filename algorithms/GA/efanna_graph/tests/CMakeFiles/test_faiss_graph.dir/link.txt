@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp  -rdynamic CMakeFiles/test_faiss_graph.dir/test_faiss_graph.cpp.o  -o test_faiss_graph  -L/home/tdlab/efanna_graph/extern_libraries/faiss/lib -Wl,-rpath,/home/tdlab/efanna_graph/extern_libraries/faiss/lib ../src/libefanna2e.a -lfaiss -lopenblas 

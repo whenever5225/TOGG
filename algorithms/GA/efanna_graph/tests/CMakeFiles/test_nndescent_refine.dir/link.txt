@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp  -rdynamic CMakeFiles/test_nndescent_refine.dir/test_nndescent_refine.cpp.o  -o test_nndescent_refine  -L/home/tdlab/efanna_graph/extern_libraries/faiss/lib -Wl,-rpath,/home/tdlab/efanna_graph/extern_libraries/faiss/lib ../src/libefanna2e.a 

@@ -1,0 +1,1 @@
+Refer to https://github.com/kakao/n2 for usage details.
